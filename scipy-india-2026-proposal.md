@@ -1,32 +1,12 @@
 # SciPy India 2026 — Talk Proposal (draft)
 
-**Session type:** Talk (30 minutes, conference day, 20 December 2026)
-**Suggested track:** Reproducibility in research
-*(secondary fit: AI, machine learning, and data-driven discovery)*
-**Submit at:** https://cfp.scipy.in/scipy-india-2026/
-**Deadline:** 19 October 2026, 23:59 IST — reviewed on a rolling basis, so submit early
-
-> Note: field names below follow the usual pretalx layout. Check the actual form;
-> it may ask for different or additional fields.
-
----
-
 ## Title
 
-Pick one:
-
-1. **Your Model Instrumentation Is Probably Wrong: Building Self-Verifying Probes for Transformers**
-2. **Looking Inside a Language Model with Plain PyTorch — and the Four Ways It Silently Lies to You**
-3. **Reading a Transformer's Internals on a Laptop: Instrumentation, and How to Know It Worked**
-
-Option 1 leads with the problem and is the most likely to get read past the title.
-Option 3 is the safest if the reviewers skew towards teaching and outreach.
+Pick one:**Reading a Transformer's Internals on a Laptop: Instrumentation, and How to Know It Worked**
 
 ---
 
 ## Abstract
-
-*(~100 words — this appears in the schedule)*
 
 Inspecting what a language model does internally needs no specialised framework:
 `output_hidden_states`, `output_attentions`, and PyTorch forward hooks are enough.
