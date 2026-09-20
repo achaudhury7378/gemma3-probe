@@ -1,2 +1,4 @@
 cache
 test_token_labels.py
+test_phase1.py
+*.pyc
